@@ -34,8 +34,18 @@ for index, rep in enumerate(seach_query):
 
     rep_prop = [index+1]
     link = github_server_link + rep.full_name
-    rep_prop.append("[{}]({})".format(rep.name, link))
-    rep_prop.append(rep.description)
+    if (len(rep.name) < 40):
+        name = rep.name
+    else:
+        name = rep.name[:36] + " ..."
+    rep_prop.append("[{}]({})".format(name, link))
+    if (rep.description == None):
+        description = "N/A"
+    elif (len(rep.description) < 120):
+        description = rep.description
+    else:
+        description = rep.description[:116] + " ..."
+    rep_prop.append(description)
     rep_prop.append(rep.language)
     rep_prop.append(rep.stargazers_count)
     rep_prop.append(rep.forks)
