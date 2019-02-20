@@ -1,3 +1,4 @@
 parameters.yml
 .gitattributes
 *.pickle
+.python-version
