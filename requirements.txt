@@ -1,0 +1,15 @@
+certifi==2019.6.16
+chardet==3.0.4
+Deprecated==1.2.5
+Django==1.11.21
+idna==2.8
+numpy==1.15.2
+PyGithub==1.43.7
+Pygments==2.3.1
+PyJWT==1.7.1
+pytz==2019.1
+PyYAML==3.13
+requests==2.22.0
+terminaltables==3.1.0
+urllib3==1.25.3
+wrapt==1.11.2
