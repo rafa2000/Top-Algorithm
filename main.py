@@ -30,7 +30,7 @@ seach_query = g.search_repositories(p["search"], sort="stars", order="desc")
 results = []
 for index, rep in enumerate(seach_query):
 
-    # print(rep.url)  # Everything are here as json file (You can use it instead of the API)
+    print(rep.url)  # Everything are here as json file (You can use it instead of the API)
 
     rep_prop = [index+1]
     link = github_server_link + rep.full_name
