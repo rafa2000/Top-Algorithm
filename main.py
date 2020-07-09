@@ -26,10 +26,11 @@ last_tables_file_name = 'last_table_data.pickle'
 md_file_name = 'readme.md'
 
 # Main query
-seach_query = g.search_repositories(p["search"], sort="stars", order="desc")
+search_query = g.search_repositories(p["search"], sort="stars", order="desc")
 results = []
-for index, rep in enumerate(seach_query):
+for index, rep in enumerate(search_query):
 
+    # Print current repo
     print(rep.url)  # Everything are here as json file (You can use it instead of the API)
 
     rep_prop = [index+1]
