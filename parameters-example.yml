@@ -1,6 +1,6 @@
-# copy this file to settings.yml
-# put your credentials here
-# this file won't be kept on git
+# Copy this file to settings.yml
+# Insert your credentials here
+# This file won't be kept on git
 user: <github-user>
 password: <github-password>
 search: <search-terms>
