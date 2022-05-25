@@ -6,7 +6,7 @@ idna==2.8
 numpy==1.15.2
 PyGithub==1.43.7
 Pygments==2.7.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2019.1
 pyyaml>=4.2b1
 requests==2.22.0
