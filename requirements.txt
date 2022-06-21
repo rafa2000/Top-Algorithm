@@ -3,7 +3,7 @@ chardet==3.0.4
 Deprecated==1.2.5
 django>=1.11.29
 idna==2.8
-numpy==1.15.2
+numpy==1.22.0
 PyGithub==1.43.7
 Pygments==2.7.4
 PyJWT==1.7.1
